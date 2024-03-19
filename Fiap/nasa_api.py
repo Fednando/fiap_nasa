@@ -1,5 +1,6 @@
 import requests
 
+print("Print remote repo")
 api_key = "cFTrCeeFZC8ZrclYt3lZshyP5FbdxwyAJ6sJW8NU"
 name_camera = "mardi"
 birthdate = "1981-03-26"
@@ -20,3 +21,4 @@ if result.status_code == 200:
     print("Imagem não encontrada")
 else:
   print("Erro desconhecido")
+
